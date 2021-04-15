@@ -1,0 +1,63 @@
+@import '~bulma/sass/utilities/_all';
+
+$primary: #ff7677;
+$primary-invert: findColorInvert($primary);
+
+$secondary: #47a5d7;
+$secondary-invert: findColorInvert($secondary);
+
+$dark: #384b60;
+$dark-invert: findColorInvert($dark);
+
+$bluelight: #c5e9ea;
+$bluelight-invert: findColorInvert($bluelight);
+
+$colors: (
+  'primary': (
+    $primary,
+    $primary-invert,
+  ),
+  'secondary': (
+    $secondary,
+    $secondary-invert,
+  ),
+  'white': (
+    $white,
+    $black,
+  ),
+  'black': (
+    $black,
+    $white,
+  ),
+  'light': (
+    $light,
+    $light-invert,
+  ),
+  'dark': (
+    $dark,
+    $dark-invert,
+  ),
+  'info': (
+    $info,
+    $info-invert,
+  ),
+  'success': (
+    $success,
+    $success-invert,
+  ),
+  'warning': (
+    $warning,
+    $warning-invert,
+  ),
+  'danger': (
+    $danger,
+    $danger-invert,
+  ),
+  'bluelight': (
+    $bluelight,
+    $bluelight-invert,
+  ),
+);
+
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

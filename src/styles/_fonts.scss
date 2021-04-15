@@ -1,0 +1,84 @@
+@mixin font($f, $p, $w, $s) {
+  @font-face {
+    src: url($p);
+    font-family: $f;
+    font-weight: $w;
+    font-style: $s;
+  }
+}
+
+@include font('Cabin', './assets/fonts/Cabin/Cabin-Regular.ttf', 400, normal);
+@include font('Cabin', './assets/fonts/Cabin/Cabin-Italic.ttf', 400, italic);
+@include font('Cabin', './assets/fonts/Cabin/Cabin-Medium.ttf', 500, normal);
+@include font(
+  'Cabin',
+  './assets/fonts/Cabin/Cabin-MediumItalic.ttf',
+  500,
+  italic
+);
+@include font('Cabin', './assets/fonts/Cabin/Cabin-SemiBold.ttf', 600, normal);
+@include font(
+  'Cabin',
+  './assets/fonts/Cabin/Cabin-SemiBoldItalic.ttf',
+  600,
+  italic
+);
+@include font('Cabin', './assets/fonts/Cabin/Cabin-Bold.ttf', 700, normal);
+@include font(
+  'Cabin',
+  './assets/fonts/Cabin/Cabin-BoldItalic.ttf',
+  700,
+  italic
+);
+
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-Regular.ttf',
+  400,
+  normal
+);
+
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-Italic.ttf',
+  400,
+  italic
+);
+
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-Bold.ttf',
+  700,
+  normal
+);
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-BoldItalic.ttf',
+  700,
+  italic
+);
+
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-Medium.ttf',
+  500,
+  normal
+);
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-MediumItalic.ttf',
+  500,
+  italic
+);
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-SemiBold.ttf',
+  600,
+  normal
+);
+@include font(
+  'Poppins',
+  './assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf',
+  600,
+  italic
+);
